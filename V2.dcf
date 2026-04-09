@@ -19729,7 +19729,7 @@ DefaultValue=18
 
 [4610sub1]
 ParameterName=Pt 1 Torque
-ParameterValue=0x0230
+ParameterValue=0x05e0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19761,7 +19761,7 @@ DefaultValue=3840
 
 [4610sub3]
 ParameterName=Pt 2 Torque
-ParameterValue=0x0230
+ParameterValue=0x05e0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19791,7 +19791,7 @@ DefaultValue=3840
 
 [4610sub5]
 ParameterName=Pt 3 Torque
-ParameterValue=0x0230
+ParameterValue=0x05e0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19821,7 +19821,7 @@ DefaultValue=5624
 
 [4610sub7]
 ParameterName=Pt 4 Torque
-ParameterValue=0x0230
+ParameterValue=0x05e0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19851,7 +19851,7 @@ DefaultValue=5624
 
 [4610sub9]
 ParameterName=Pt 5 Torque
-ParameterValue=0x0230
+ParameterValue=0x05e0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19881,7 +19881,7 @@ DefaultValue=5624
 
 [4610subB]
 ParameterName=Pt 6 Torque
-ParameterValue=0x0230
+ParameterValue=0x0500
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19911,7 +19911,7 @@ DefaultValue=5624
 
 [4610subD]
 ParameterName=Pt 7 Torque
-ParameterValue=0x01e0
+ParameterValue=0x0440
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19941,7 +19941,7 @@ DefaultValue=5624
 
 [4610subF]
 ParameterName=Pt 8 Torque
-ParameterValue=0x01a0
+ParameterValue=0x0370
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -19971,7 +19971,7 @@ DefaultValue=5624
 
 [4610sub11]
 ParameterName=Pt 9 Torque
-ParameterValue=0x014d
+ParameterValue=0x02e0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20304,7 +20304,7 @@ DefaultValue=18
 
 [4612sub1]
 ParameterName=Pt 1 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0640
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20335,7 +20335,7 @@ DefaultValue=0
 
 [4612sub3]
 ParameterName=Pt 2 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0690
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20351,7 +20351,7 @@ DefaultValue=480
 
 [4612sub4]
 ParameterName=Pt 2 Voltage Cutback Gain
-ParameterValue=0x0000
+ParameterValue=0x1338
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20366,7 +20366,7 @@ DefaultValue=0
 
 [4612sub5]
 ParameterName=Pt 3 Voltage
-ParameterValue=0x0720
+ParameterValue=0x06e0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20382,7 +20382,7 @@ DefaultValue=480
 
 [4612sub6]
 ParameterName=Pt 3 Voltage Cutback Gain
-ParameterValue=0x0000
+ParameterValue=0x170a
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20397,7 +20397,7 @@ DefaultValue=0
 
 [4612sub7]
 ParameterName=Pt 4 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0730
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20413,7 +20413,7 @@ DefaultValue=640
 
 [4612sub8]
 ParameterName=Pt 4 Voltage Cutback Gain
-ParameterValue=0x0000
+ParameterValue=0x299a
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20428,7 +20428,7 @@ DefaultValue=16384
 
 [4612sub9]
 ParameterName=Pt 5 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0780
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20444,7 +20444,7 @@ DefaultValue=640
 
 [4612subA]
 ParameterName=Pt 5 Voltage Cutback Gain
-ParameterValue=0x0000
+ParameterValue=0x2ccd
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20459,7 +20459,7 @@ DefaultValue=16384
 
 [4612subB]
 ParameterName=Pt 6 Voltage
-ParameterValue=0x0838
+ParameterValue=0x07d0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20475,7 +20475,7 @@ DefaultValue=640
 
 [4612subC]
 ParameterName=Pt 6 Voltage Cutback Gain
-ParameterValue=0x4000
+ParameterValue=0x3333
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20490,7 +20490,7 @@ DefaultValue=16384
 
 [4612subD]
 ParameterName=Pt 7 Voltage
-ParameterValue=0x0958
+ParameterValue=0x0870
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20521,7 +20521,7 @@ DefaultValue=16384
 
 [4612subF]
 ParameterName=Pt 8 Voltage
-ParameterValue=0x0a70
+ParameterValue=0x0910
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20552,7 +20552,7 @@ DefaultValue=16384
 
 [4612sub11]
 ParameterName=Pt 9 Voltage
-ParameterValue=0x0a70
+ParameterValue=0x0a80
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20603,7 +20603,7 @@ DefaultValue=18
 
 [4614sub1]
 ParameterName=Pt 1 Mag Current
-ParameterValue=0x0149
+ParameterValue=0x06f0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20619,7 +20619,7 @@ DefaultValue=0
 
 [4614sub2]
 ParameterName=Pt 1 Mag Inductance
-ParameterValue=0x11c6
+ParameterValue=0x102c
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20635,7 +20635,7 @@ DefaultValue=4587
 
 [4614sub3]
 ParameterName=Pt 2 Mag Current
-ParameterValue=0x0226
+ParameterValue=0x06f6
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20650,7 +20650,7 @@ DefaultValue=500
 
 [4614sub4]
 ParameterName=Pt 2 Mag Inductance
-ParameterValue=0x1152
+ParameterValue=0x1026
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20665,7 +20665,7 @@ DefaultValue=4301
 
 [4614sub5]
 ParameterName=Pt 3 Mag Current
-ParameterValue=0x0303
+ParameterValue=0x06fc
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20680,7 +20680,7 @@ DefaultValue=1000
 
 [4614sub6]
 ParameterName=Pt 3 Mag Inductance
-ParameterValue=0x0fa2
+ParameterValue=0x1021
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20695,7 +20695,7 @@ DefaultValue=3840
 
 [4614sub7]
 ParameterName=Pt 4 Mag Current
-ParameterValue=0x03e0
+ParameterValue=0x0702
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20710,7 +20710,7 @@ DefaultValue=1499
 
 [4614sub8]
 ParameterName=Pt 4 Mag Inductance
-ParameterValue=0x0d9f
+ParameterValue=0x101b
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20725,7 +20725,7 @@ DefaultValue=3194
 
 [4614sub9]
 ParameterName=Pt 5 Mag Current
-ParameterValue=0x04be
+ParameterValue=0x0708
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20740,7 +20740,7 @@ DefaultValue=1600
 
 [4614subA]
 ParameterName=Pt 5 Mag Inductance
-ParameterValue=0x0bec
+ParameterValue=0x1016
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20755,7 +20755,7 @@ DefaultValue=3030
 
 [4614subB]
 ParameterName=Pt 6 Mag Current
-ParameterValue=0x059b
+ParameterValue=0x070e
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20770,7 +20770,7 @@ DefaultValue=2100
 
 [4614subC]
 ParameterName=Pt 6 Mag Inductance
-ParameterValue=0x0a91
+ParameterValue=0x1011
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20785,7 +20785,7 @@ DefaultValue=2539
 
 [4614subD]
 ParameterName=Pt 7 Mag Current
-ParameterValue=0x0678
+ParameterValue=0x0714
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20800,7 +20800,7 @@ DefaultValue=2400
 
 [4614subE]
 ParameterName=Pt 7 Mag Inductance
-ParameterValue=0x097c
+ParameterValue=0x100b
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20815,7 +20815,7 @@ DefaultValue=2334
 
 [4614subF]
 ParameterName=Pt 8 Mag Current
-ParameterValue=0x0755
+ParameterValue=0x071a
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20830,7 +20830,7 @@ DefaultValue=3200
 
 [4614sub10]
 ParameterName=Pt 8 Mag Inductance
-ParameterValue=0x089b
+ParameterValue=0x1005
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20845,7 +20845,7 @@ DefaultValue=1884
 
 [4614sub11]
 ParameterName=Pt 9 Mag Current
-ParameterValue=0x0833
+ParameterValue=0x0720
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20860,7 +20860,7 @@ DefaultValue=4000
 
 [4614sub12]
 ParameterName=Pt 9 Mag Inductance
-ParameterValue=0x07e3
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20969,7 +20969,7 @@ DefaultValue=18
 
 [4619sub1]
 ParameterName=Pt 1 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0640
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21000,7 +21000,7 @@ DefaultValue=4915
 
 [4619sub3]
 ParameterName=Pt 2 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0640
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21031,7 +21031,7 @@ DefaultValue=4915
 
 [4619sub5]
 ParameterName=Pt 3 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0640
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21062,7 +21062,7 @@ DefaultValue=4915
 
 [4619sub7]
 ParameterName=Pt 4 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0640
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21093,7 +21093,7 @@ DefaultValue=4915
 
 [4619sub9]
 ParameterName=Pt 5 Voltage
-ParameterValue=0x0720
+ParameterValue=0x0960
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21124,7 +21124,7 @@ DefaultValue=4915
 
 [4619subB]
 ParameterName=Pt 6 Voltage
-ParameterValue=0x0838
+ParameterValue=0x09b0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21140,7 +21140,7 @@ DefaultValue=640
 
 [4619subC]
 ParameterName=Pt 6 Voltage Cutback Gain
-ParameterValue=0x4000
+ParameterValue=0x2000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21155,7 +21155,7 @@ DefaultValue=4915
 
 [4619subD]
 ParameterName=Pt 7 Voltage
-ParameterValue=0x0958
+ParameterValue=0x0a00
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21171,7 +21171,7 @@ DefaultValue=640
 
 [4619subE]
 ParameterName=Pt 7 Voltage Cutback Gain
-ParameterValue=0x4000
+ParameterValue=0x0ccd
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21186,7 +21186,7 @@ DefaultValue=4915
 
 [4619subF]
 ParameterName=Pt 8 Voltage
-ParameterValue=0x0a70
+ParameterValue=0x0a80
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21217,7 +21217,7 @@ DefaultValue=4915
 
 [4619sub11]
 ParameterName=Pt 9 Voltage
-ParameterValue=0x0a70
+ParameterValue=0x0a80
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -22071,7 +22071,7 @@ DefaultValue=22
 
 [4630sub2]
 ParameterName=Encoder Supply
-ParameterValue=0x01
+ParameterValue=0x00
 ObjectType=7
 DataType=1
 AccessType=rw
@@ -22225,7 +22225,7 @@ DefaultValue=0
 
 [4631subB]
 ParameterName=Primary encoder control word
-ParameterValue=0x0000
+ParameterValue=0x0004
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23391,7 +23391,7 @@ DefaultValue=6
 
 [4640sub1]
 ParameterName=Rated line voltage
-ParameterValue=0x0be0
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23408,7 +23408,7 @@ DefaultValue=0
 
 [4640sub2]
 ParameterName=Rated phase current
-ParameterValue=0x0000
+ParameterValue=0x0850
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23425,7 +23425,7 @@ DefaultValue=0
 
 [4640sub3]
 ParameterName=Rated mechanical speed
-ParameterValue=0x076c
+ParameterValue=0x0bb8
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23441,7 +23441,7 @@ DefaultValue=0
 
 [4640sub4]
 ParameterName=Rated frequency
-ParameterValue=0x0000
+ParameterValue=0x0670
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23458,7 +23458,7 @@ DefaultValue=0
 
 [4640sub5]
 ParameterName=Rated power
-ParameterValue=0x0000
+ParameterValue=0x00b0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23475,7 +23475,7 @@ DefaultValue=0
 
 [4640sub6]
 ParameterName=Power factor
-ParameterValue=0x0000
+ParameterValue=0x4ccd
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -28841,7 +28841,7 @@ DefaultValue=0
 
 [5702sub5]
 ParameterName=Motoring Torque Increase
-ParameterValue=0x457a0000
+ParameterValue=0x41f00000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -28855,7 +28855,7 @@ DefaultValue=0
 
 [5702sub6]
 ParameterName=Motoring Torque Decrease
-ParameterValue=0x457a0000
+ParameterValue=0x42c80000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -28869,7 +28869,7 @@ DefaultValue=0
 
 [5702sub7]
 ParameterName=Braking Torque Increase
-ParameterValue=0x457a0000
+ParameterValue=0x41a00000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -28883,7 +28883,7 @@ DefaultValue=0
 
 [5702sub8]
 ParameterName=Braking Torque Decrease
-ParameterValue=0x457a0000
+ParameterValue=0x42a00000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -28897,7 +28897,7 @@ DefaultValue=0
 
 [5702sub9]
 ParameterName=Max Increasing Torque Out
-ParameterValue=0x457a0000
+ParameterValue=0x42c80000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -28911,7 +28911,7 @@ DefaultValue=0
 
 [5702subA]
 ParameterName=Max Decreasing Torque Out
-ParameterValue=0x457a0000
+ParameterValue=0x42c80000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -28925,7 +28925,7 @@ DefaultValue=0
 
 [5702subB]
 ParameterName=Max Crossing Torque Out
-ParameterValue=0x43fa0000
+ParameterValue=0x42480000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -29022,7 +29022,7 @@ DefaultValue=0
 
 [5702sub12]
 ParameterName=DC current regulator Kp
-ParameterValue=0x00000000
+ParameterValue=0x3dcccccd
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -29036,7 +29036,7 @@ DefaultValue=0
 
 [5702sub13]
 ParameterName=DC current regulator Ki
-ParameterValue=0x00000000
+ParameterValue=0x3d4ccccd
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -29922,7 +29922,7 @@ DefaultValue=0
 
 [5702sub58]
 ParameterName=Motor Inertia
-ParameterValue=0x00000000
+ParameterValue=0x3be8a71e
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -31731,6 +31731,9 @@ DefaultValue=10
 ;SEVCONFIELD SCALING=0.001
 ;SEVCONFIELD UNITS=s
 ;SEVCONFIELD DESCRIPTION=time base for rate increase. Must be a multiple of 10 and none 0.
+
+
+
 
 
 
