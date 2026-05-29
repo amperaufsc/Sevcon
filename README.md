@@ -75,7 +75,7 @@
 | Parâmetro | Configurado | Por quê |
 |---|---|---|
 | Minimum Capacitor Voltage | **100 V** | Antes vazio |
-| Maximum Capacitor Voltage | **175 V** | Antes vazio. Margem 4% sobre bus máximo (168V) |
+| Maximum Capacitor Voltage | **168 V** | Antes vazio. Bus máximo |
 | Nominal Capacitor Voltage | **144 V** | Antes vazio. Tensão nominal do bus |
 | Capacitor Cutback Range | **10 V** | Antes vazio. Faixa de transição gradual |
 
@@ -101,15 +101,12 @@ Após preencher, executar **"Calculate / Write voltage cutbacks"**.
 
 | Parâmetro | Configurado | Por quê |
 |---|---|---|
-| Im min | 15 A | Antes 111. Cobertura ampla |
-| Im max | 250 A | Antes 114. Cobre até ~220% do Im rated |
-
-Gerado via "Calculate map" do DVT (generic profile).
+| Im min = Im max | **102.4 A** | Im é fixo em 102.4 A (seção 2.3), então o map cobre apenas esse ponto |
 
 ### 2.8 Speed Limits (cadeia em camadas)
 
 | Parâmetro | Configurado | Por quê |
 |---|---|---|
-| Local Motor Limits → Max motor speed | 5000 RPM mech | Cutback secundário |
-| Overspeed Limit [0x4624,0] | 6500 RPM mech | Trip duro. Margem 8% sobre S2 max (6000) |
+| Local Motor Limits → Max motor speed | **6000 RPM mech** | S2 max do motor |
+| Overspeed Limit [0x4624,0] | **7200 RPM mech** | Trip duro. Margem 20% sobre Max motor speed pra absorver o erro do encoder (modulação ±29% por phase shift ±20°) |
 
