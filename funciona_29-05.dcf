@@ -1,14 +1,14 @@
 [FileInfo]
-FileName=C:/Users/Guilherme Lettmann/STM32CubeIDE/workspace_1.18.1/Sevcon/aaa.dcf
+FileName=C:/Users/Guilherme Lettmann/STM32CubeIDE/workspace_1.18.1/Sevcon/funciona_29-05.dcf
 FileVersion=1
 FileRevision=0
 EDSVersion=4.0
 Description=Genix Thu Jul 25 08:59:34 2019
-CreationTime=05:25PM
-CreationDate=05-28-2026
+CreationTime=10:55AM
+CreationDate=05-29-2026
 CreatedBy=BorgWarner (SEVCON)
-ModificationTime=05:25PM
-ModificationDate=05-28-2026
+ModificationTime=10:55AM
+ModificationDate=05-29-2026
 ModifiedBy=BorgWarner (SEVCON)
 
 [DeviceInfo]
@@ -101,7 +101,7 @@ DefaultValue=0xFFFF0192
 
 [1001]
 ParameterName=Error register
-ParameterValue=0x41
+ParameterValue=0x01
 ObjectType=7
 DataType=5
 AccessType=ro
@@ -8104,7 +8104,7 @@ PDOMapping=1
 
 [606C]
 ParameterName=Velocity
-ParameterValue=0x0003
+ParameterValue=0xffff
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -8173,7 +8173,7 @@ DefaultValue=0
 
 [6079]
 ParameterName=Capacitor Voltage
-ParameterValue=0x00120007
+ParameterValue=0x00100007
 ObjectType=7
 DataType=7
 AccessType=ro
@@ -8665,7 +8665,7 @@ DefaultValue=16
 
 [6C01sub1]
 ParameterName=Analog input 1 voltage
-ParameterValue=0x000d
+ParameterValue=0x000c
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -8704,7 +8704,7 @@ PDOMapping=1
 
 [6C01sub4]
 ParameterName=Analog input 4 voltage
-ParameterValue=0x0009
+ParameterValue=0x000a
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -8717,7 +8717,7 @@ PDOMapping=1
 
 [6C01sub5]
 ParameterName=Analog input 5 voltage
-ParameterValue=0x0334
+ParameterValue=0x0324
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -14837,7 +14837,7 @@ DefaultValue=18
 
 [3F00sub1]
 ParameterName=Transmit message priority
-ParameterValue=0x04
+ParameterValue=0x06
 ObjectType=7
 DataType=5
 AccessType=rw
@@ -17574,7 +17574,7 @@ PDOMapping=0
 
 [4203sub4]
 ParameterName=Last Event Hours
-ParameterValue=0x000d
+ParameterValue=0x0018
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -17588,7 +17588,7 @@ PDOMapping=0
 
 [4203sub5]
 ParameterName=Last Event Minutes / Seconds
-ParameterValue=0xc3
+ParameterValue=0x7f
 ObjectType=7
 DataType=5
 AccessType=ro
@@ -17603,7 +17603,7 @@ PDOMapping=0
 
 [4203sub6]
 ParameterName=Counter
-ParameterValue=0x000d
+ParameterValue=0x0013
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -17892,7 +17892,7 @@ PDOMapping=0
 
 [4206sub4]
 ParameterName=Last Event Hours
-ParameterValue=0x0014
+ParameterValue=0x0018
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -17906,7 +17906,7 @@ PDOMapping=0
 
 [4206sub5]
 ParameterName=Last Event Minutes / Seconds
-ParameterValue=0xda
+ParameterValue=0x7f
 ObjectType=7
 DataType=5
 AccessType=ro
@@ -17921,7 +17921,7 @@ PDOMapping=0
 
 [4206sub6]
 ParameterName=Counter
-ParameterValue=0x002d
+ParameterValue=0x003b
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -18165,7 +18165,7 @@ DefaultValue=6
 
 [4209sub1]
 ParameterName=Event ID
-ParameterValue=0x4681
+ParameterValue=0x2401
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -18181,7 +18181,7 @@ DefaultValue=0
 
 [4209sub2]
 ParameterName=First Event Hours
-ParameterValue=0x0016
+ParameterValue=0x0018
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -18195,7 +18195,7 @@ PDOMapping=0
 
 [4209sub3]
 ParameterName=First Event Minutes / Seconds
-ParameterValue=0xb0
+ParameterValue=0xe8
 ObjectType=7
 DataType=5
 AccessType=ro
@@ -18210,7 +18210,7 @@ PDOMapping=0
 
 [4209sub4]
 ParameterName=Last Event Hours
-ParameterValue=0x0016
+ParameterValue=0x0018
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -18224,7 +18224,7 @@ PDOMapping=0
 
 [4209sub5]
 ParameterName=Last Event Minutes / Seconds
-ParameterValue=0xb0
+ParameterValue=0xe8
 ObjectType=7
 DataType=5
 AccessType=ro
@@ -18316,7 +18316,7 @@ PDOMapping=0
 
 [420Asub4]
 ParameterName=Last Event Hours
-ParameterValue=0x0014
+ParameterValue=0x0018
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -18330,7 +18330,7 @@ PDOMapping=0
 
 [420Asub5]
 ParameterName=Last Event Minutes / Seconds
-ParameterValue=0xda
+ParameterValue=0x1c
 ObjectType=7
 DataType=5
 AccessType=ro
@@ -18345,7 +18345,7 @@ PDOMapping=0
 
 [420Asub6]
 ParameterName=Counter
-ParameterValue=0x000e
+ParameterValue=0x0016
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -18531,7 +18531,7 @@ PDOMapping=0
 
 [4300subD]
 ParameterName=Maximum Device Temperature
-ParameterValue=0x0a41
+ParameterValue=0x0a60
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -18716,7 +18716,7 @@ PDOMapping=0
 
 [4301subD]
 ParameterName=Maximum Device Temperature
-ParameterValue=0x0718
+ParameterValue=0x071a
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -18762,7 +18762,7 @@ PDOMapping=1
 
 [4600sub3]
 ParameterName=Motor Temperature 1 (Measured - TH1)
-ParameterValue=0x0012
+ParameterValue=0x000f
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -18775,7 +18775,7 @@ PDOMapping=1
 
 [4600sub5]
 ParameterName=Target Id
-ParameterValue=0x071f
+ParameterValue=0x0666
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -18805,7 +18805,7 @@ PDOMapping=1
 
 [4600sub7]
 ParameterName=Id
-ParameterValue=0x0005
+ParameterValue=0xfff8
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -18820,7 +18820,7 @@ PDOMapping=1
 
 [4600sub8]
 ParameterName=Iq
-ParameterValue=0xfff8
+ParameterValue=0x0004
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -18879,7 +18879,7 @@ PDOMapping=1
 
 [4600subC]
 ParameterName=Actual AC Motor Current
-ParameterValue=0x0004
+ParameterValue=0x000b
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -18996,7 +18996,7 @@ ObjFlags=0x1
 
 [4601sub2]
 ParameterName=Minutes / Seconds
-ParameterValue=0x74
+ParameterValue=0x8d
 ObjectType=7
 DataType=5
 AccessType=rw
@@ -19044,7 +19044,7 @@ PDOMapping=1
 
 [4602sub9]
 ParameterName=Heatsink Temperature
-ParameterValue=0x0218
+ParameterValue=0x01b1
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19058,7 +19058,7 @@ PDOMapping=1
 
 [4602subA]
 ParameterName=Overall Maximum Temperature
-ParameterValue=0x02e7
+ParameterValue=0x0242
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19172,7 +19172,7 @@ PDOMapping=1
 
 [4602sub14]
 ParameterName=PCB Track Temperature
-ParameterValue=0x01cf
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19186,7 +19186,7 @@ PDOMapping=1
 
 [4602sub16]
 ParameterName=Current sensor autozero value (M1)
-ParameterValue=0x0040
+ParameterValue=0x001e
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19200,7 +19200,7 @@ PDOMapping=1
 
 [4602sub17]
 ParameterName=Current sensor autozero value (M2)
-ParameterValue=0xfff6
+ParameterValue=0x0012
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19214,7 +19214,7 @@ PDOMapping=1
 
 [4602sub18]
 ParameterName=Current sensor autozero value (M3)
-ParameterValue=0x000e
+ParameterValue=0x0038
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19228,7 +19228,7 @@ PDOMapping=1
 
 [4602sub19]
 ParameterName=Current sensor value (M1)
-ParameterValue=0x0001
+ParameterValue=0xfffa
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19242,7 +19242,7 @@ PDOMapping=1
 
 [4602sub1A]
 ParameterName=Current sensor value (M2)
-ParameterValue=0xfffd
+ParameterValue=0x000e
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19256,7 +19256,7 @@ PDOMapping=1
 
 [4602sub1B]
 ParameterName=Current sensor value (M3)
-ParameterValue=0xfffd
+ParameterValue=0x0006
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19517,7 +19517,7 @@ PDOMapping=1
 
 [4602sub33]
 ParameterName=Angle comms error count
-ParameterValue=0x0014
+ParameterValue=0x0004
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -19530,7 +19530,7 @@ PDOMapping=1
 
 [4602sub34]
 ParameterName=User specified magnetizing inductance (Lm)
-ParameterValue=0x0041
+ParameterValue=0x0065
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -19558,7 +19558,7 @@ PDOMapping=1
 
 [4602sub36]
 ParameterName=Current sensor autozero value (B+)
-ParameterValue=0xffe7
+ParameterValue=0xfff0
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19572,7 +19572,7 @@ PDOMapping=1
 
 [4602sub37]
 ParameterName=Current sensor value (B+)
-ParameterValue=0x0001
+ParameterValue=0xfffa
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19614,7 +19614,7 @@ PDOMapping=1
 
 [4602sub3A]
 ParameterName=Id Current Control Error
-ParameterValue=0x0721
+ParameterValue=0x0670
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -19642,7 +19642,7 @@ PDOMapping=1
 
 [4602sub3C]
 ParameterName=voltage vector angle
-ParameterValue=0x4000
+ParameterValue=0xc000
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -19653,7 +19653,7 @@ PDOMapping=1
 
 [4602sub3D]
 ParameterName=voltage vector status
-ParameterValue=0x0004
+ParameterValue=0x0006
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -19665,7 +19665,7 @@ PDOMapping=1
 
 [4602sub3E]
 ParameterName=filtered speed
-ParameterValue=0x3f587c95
+ParameterValue=0xbe34fa7f
 ObjectType=7
 DataType=8
 AccessType=ro
@@ -20603,7 +20603,7 @@ DefaultValue=18
 
 [4614sub1]
 ParameterName=Pt 1 Mag Current
-ParameterValue=0x00f0
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20619,7 +20619,7 @@ DefaultValue=0
 
 [4614sub2]
 ParameterName=Pt 1 Mag Inductance
-ParameterValue=0x11c7
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20635,7 +20635,7 @@ DefaultValue=4587
 
 [4614sub3]
 ParameterName=Pt 2 Mag Current
-ParameterValue=0x019e
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20650,7 +20650,7 @@ DefaultValue=500
 
 [4614sub4]
 ParameterName=Pt 2 Mag Inductance
-ParameterValue=0x11c7
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20665,7 +20665,7 @@ DefaultValue=4301
 
 [4614sub5]
 ParameterName=Pt 3 Mag Current
-ParameterValue=0x024c
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20680,7 +20680,7 @@ DefaultValue=1000
 
 [4614sub6]
 ParameterName=Pt 3 Mag Inductance
-ParameterValue=0x11c6
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20695,7 +20695,7 @@ DefaultValue=3840
 
 [4614sub7]
 ParameterName=Pt 4 Mag Current
-ParameterValue=0x02fa
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20710,7 +20710,7 @@ DefaultValue=1499
 
 [4614sub8]
 ParameterName=Pt 4 Mag Inductance
-ParameterValue=0x11c2
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20725,7 +20725,7 @@ DefaultValue=3194
 
 [4614sub9]
 ParameterName=Pt 5 Mag Current
-ParameterValue=0x03a8
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20740,7 +20740,7 @@ DefaultValue=1600
 
 [4614subA]
 ParameterName=Pt 5 Mag Inductance
-ParameterValue=0x11b2
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20755,7 +20755,7 @@ DefaultValue=3030
 
 [4614subB]
 ParameterName=Pt 6 Mag Current
-ParameterValue=0x0456
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20770,7 +20770,7 @@ DefaultValue=2100
 
 [4614subC]
 ParameterName=Pt 6 Mag Inductance
-ParameterValue=0x1187
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20785,7 +20785,7 @@ DefaultValue=2539
 
 [4614subD]
 ParameterName=Pt 7 Mag Current
-ParameterValue=0x0504
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20800,7 +20800,7 @@ DefaultValue=2400
 
 [4614subE]
 ParameterName=Pt 7 Mag Inductance
-ParameterValue=0x1130
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20815,7 +20815,7 @@ DefaultValue=2334
 
 [4614subF]
 ParameterName=Pt 8 Mag Current
-ParameterValue=0x05b2
+ParameterValue=0x0660
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -20830,7 +20830,7 @@ DefaultValue=3200
 
 [4614sub10]
 ParameterName=Pt 8 Mag Inductance
-ParameterValue=0x10a9
+ParameterValue=0x1000
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -21897,7 +21897,7 @@ DefaultValue=0x0100
 
 [4621sub8]
 ParameterName=Motor thermistor resistance 1
-ParameterValue=0x023e
+ParameterValue=0x0234
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -22034,7 +22034,7 @@ DefaultValue=10
 
 [4624]
 ParameterName=Motor overspeed protection
-ParameterValue=0x1838
+ParameterValue=0x1c20
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -22090,7 +22090,7 @@ DefaultValue=0
 
 [4630sub4]
 ParameterName=Encoder Offset
-ParameterValue=0x0150
+ParameterValue=0x016c
 ObjectType=7
 DataType=3
 AccessType=rw
@@ -22149,7 +22149,7 @@ DefaultValue=0
 
 [4631sub3]
 ParameterName=Encoder angle
-ParameterValue=0x7903
+ParameterValue=0xf37b
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -22163,7 +22163,7 @@ PDOMapping=1
 
 [4631sub4]
 ParameterName=Primary encoder tracking loop PLL gain
-ParameterValue=0x9c40
+ParameterValue=0x32c8
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -22178,7 +22178,7 @@ DefaultValue=40000
 
 [4631sub5]
 ParameterName=Primary encoder tracking loop PLL K1
-ParameterValue=0xfde8
+ParameterValue=0x55f0
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -22193,7 +22193,7 @@ DefaultValue=65000
 
 [4631sub6]
 ParameterName=Primary encoder tracking loop PLL K2
-ParameterValue=0x9c40
+ParameterValue=0x1194
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -22225,7 +22225,7 @@ DefaultValue=0
 
 [4631subB]
 ParameterName=Primary encoder control word
-ParameterValue=0x0005
+ParameterValue=0x0034
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -22285,7 +22285,7 @@ DefaultValue=0
 
 [4631subD]
 ParameterName=Electrical Angle Accumulator
-ParameterValue=0x00197897
+ParameterValue=0x0030f391
 ObjectType=7
 DataType=4
 AccessType=ro
@@ -22299,7 +22299,7 @@ PDOMapping=1
 
 [4631subE]
 ParameterName=Raw Encoder Speed
-ParameterValue=0x0002
+ParameterValue=0xffff
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -22667,7 +22667,7 @@ PDOMapping=0
 
 [4632subF]
 ParameterName=Raw sensor angle (mechanical)
-ParameterValue=0x0000
+ParameterValue=0x7fff
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -23163,7 +23163,7 @@ DefaultValue=8
 
 [4635sub1]
 ParameterName=Status word
-ParameterValue=0x2200
+ParameterValue=0x2300
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -23268,7 +23268,7 @@ DefaultValue=0
 
 [4635sub4]
 ParameterName=AB counter
-ParameterValue=0xf673
+ParameterValue=0x125b
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -23543,7 +23543,7 @@ DefaultValue=300
 
 [4641sub3]
 ParameterName=Minimum Magnetizing Current (Im min)
-ParameterValue=0x000f
+ParameterValue=0x0066
 ObjectType=7
 DataType=3
 AccessType=rw
@@ -23659,7 +23659,7 @@ DefaultValue=1
 
 [4641subB]
 ParameterName=Rotor Leakage Inductance (Llr)
-ParameterValue=0x0075
+ParameterValue=0x0074
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23676,7 +23676,7 @@ DefaultValue=21800
 
 [4641subD]
 ParameterName=Current control proportional gain (Kp)
-ParameterValue=0x0180
+ParameterValue=0x00ef
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23708,7 +23708,7 @@ DefaultValue=30342
 
 [4641subF]
 ParameterName=Current control integral gain (Ki)
-ParameterValue=0x0014
+ParameterValue=0x0008
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23773,7 +23773,7 @@ DefaultValue=100
 
 [4641sub19]
 ParameterName=Mod index control Kp
-ParameterValue=0x0200
+ParameterValue=0x0400
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23788,7 +23788,7 @@ DefaultValue=0
 
 [4641sub1A]
 ParameterName=Mod index control Ki
-ParameterValue=0x0100
+ParameterValue=0x0200
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23868,7 +23868,7 @@ DefaultValue=0
 
 [4641sub21]
 ParameterName=D-axis current controller proportional gain
-ParameterValue=0x0000
+ParameterValue=0x00ef
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -23883,7 +23883,7 @@ DefaultValue=0
 
 [4641sub22]
 ParameterName=D-axis current controller integral gain
-ParameterValue=0x0000
+ParameterValue=0x0008
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -24763,7 +24763,7 @@ DefaultValue=4
 
 [4655sub6]
 ParameterName=Status flags
-ParameterValue=0x0800
+ParameterValue=0x0400
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -26319,7 +26319,7 @@ PDOMapping=1
 
 [5100sub2]
 ParameterName=Battery Current
-ParameterValue=0x0001
+ParameterValue=0xfff8
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26348,7 +26348,7 @@ PDOMapping=1
 
 [5100sub4]
 ParameterName=Heatsink Temperature
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26415,7 +26415,7 @@ PDOMapping=1
 
 [5100subD]
 ParameterName=Supply DCCT 5V (MCP)
-ParameterValue=0x0501
+ParameterValue=0x0500
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26429,7 +26429,7 @@ PDOMapping=1
 
 [5100subE]
 ParameterName=Supply 18V (MCP)
-ParameterValue=0x0ec9
+ParameterValue=0x0ec5
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26541,7 +26541,7 @@ PDOMapping=1
 
 [5100sub16]
 ParameterName=Motor Th 1 supply
-ParameterValue=0x099b
+ParameterValue=0x0990
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26555,7 +26555,7 @@ PDOMapping=1
 
 [5100sub17]
 ParameterName=Motor Th 2 supply
-ParameterValue=0x09ff
+ParameterValue=0x09f2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26569,7 +26569,7 @@ PDOMapping=1
 
 [5100sub18]
 ParameterName=KL15 monitor
-ParameterValue=0x0b65
+ParameterValue=0x0c33
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26582,7 +26582,7 @@ PDOMapping=1
 
 [5100sub19]
 ParameterName=KL30 monitor
-ParameterValue=0x0b8b
+ParameterValue=0x0c51
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26641,7 +26641,7 @@ DefaultValue=45
 
 [5101sub1]
 ParameterName=Heatsink Temperature Measured 1
-ParameterValue=0x0217
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26655,7 +26655,7 @@ PDOMapping=1
 
 [5101sub2]
 ParameterName=Heatsink Temperature Measured 2
-ParameterValue=0x01cd
+ParameterValue=0x015d
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26669,7 +26669,7 @@ PDOMapping=1
 
 [5101sub3]
 ParameterName=Heatsink Temperature Measured 3
-ParameterValue=0x01cf
+ParameterValue=0x0161
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26683,7 +26683,7 @@ PDOMapping=1
 
 [5101sub4]
 ParameterName=PCB Measured Temperature 1
-ParameterValue=0x01cf
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26697,7 +26697,7 @@ PDOMapping=1
 
 [5101sub5]
 ParameterName=Junction Temperature Estimate 1 (M1L)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26711,7 +26711,7 @@ PDOMapping=1
 
 [5101sub6]
 ParameterName=Junction Temperature Estimate 2 (M2L)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26725,7 +26725,7 @@ PDOMapping=1
 
 [5101sub7]
 ParameterName=Junction Temperature Estimate 3 (M3L)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26739,7 +26739,7 @@ PDOMapping=1
 
 [5101sub8]
 ParameterName=Junction Temperature Estimate 4 (M1U)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26753,7 +26753,7 @@ PDOMapping=1
 
 [5101sub9]
 ParameterName=Junction Temperature Estimate 5 (M2U)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26767,7 +26767,7 @@ PDOMapping=1
 
 [5101subA]
 ParameterName=Junction Temperature Estimate 6 (M3U)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26781,7 +26781,7 @@ PDOMapping=1
 
 [5101subB]
 ParameterName=Track Temperature Estimate 1 (M1L / M1)
-ParameterValue=0x01cf
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26795,7 +26795,7 @@ PDOMapping=1
 
 [5101subC]
 ParameterName=Track Temperature Estimate 2 (M2L / M2)
-ParameterValue=0x01cf
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26809,7 +26809,7 @@ PDOMapping=1
 
 [5101subD]
 ParameterName=Track Temperature Estimate 3 (M3L / M3)
-ParameterValue=0x01cf
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26823,7 +26823,7 @@ PDOMapping=1
 
 [5101subE]
 ParameterName=Track Temperature Estimate 4 (M1U / B-)
-ParameterValue=0x01cf
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26837,7 +26837,7 @@ PDOMapping=1
 
 [5101subF]
 ParameterName=Track Temperature Estimate 5 (M2U / B+)
-ParameterValue=0x01cf
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26865,7 +26865,7 @@ PDOMapping=1
 
 [5101sub11]
 ParameterName=Capacitor short term temperature estimate
-ParameterValue=0x01b8
+ParameterValue=0x0149
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26879,7 +26879,7 @@ PDOMapping=1
 
 [5101sub12]
 ParameterName=Capacitor long term temperature estimate
-ParameterValue=0x01b8
+ParameterValue=0x0149
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26906,7 +26906,7 @@ PDOMapping=1
 
 [5101sub1A]
 ParameterName=Diode Temperature Estimate 1 (M1L)
-ParameterValue=0x0217
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26920,7 +26920,7 @@ PDOMapping=1
 
 [5101sub1B]
 ParameterName=Diode Temperature Estimate 2 (M2L)
-ParameterValue=0x0217
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26934,7 +26934,7 @@ PDOMapping=1
 
 [5101sub1C]
 ParameterName=Diode Temperature Estimate 3 (M3L)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26948,7 +26948,7 @@ PDOMapping=1
 
 [5101sub1D]
 ParameterName=Diode Temperature Estimate 4 (M1U)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26962,7 +26962,7 @@ PDOMapping=1
 
 [5101sub1E]
 ParameterName=Diode Temperature Estimate 5 (M2U)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26976,7 +26976,7 @@ PDOMapping=1
 
 [5101sub1F]
 ParameterName=Diode Temperature Estimate 6 (M3U)
-ParameterValue=0x0218
+ParameterValue=0x01b2
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -26990,7 +26990,7 @@ PDOMapping=1
 
 [5101sub20]
 ParameterName=PCB Measured Temperature 2
-ParameterValue=0x0258
+ParameterValue=0x01af
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -27004,7 +27004,7 @@ PDOMapping=1
 
 [5101sub21]
 ParameterName=Capacitor Measured Temperature
-ParameterValue=0x01b8
+ParameterValue=0x0149
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -27032,7 +27032,7 @@ PDOMapping=1
 
 [5101sub23]
 ParameterName=IOP Die Temperature
-ParameterValue=0x02e7
+ParameterValue=0x0242
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -27183,7 +27183,7 @@ PDOMapping=1
 
 [5101sub2E]
 ParameterName=Secondary Temperature
-ParameterValue=0x01ce
+ParameterValue=0x0163
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -27197,7 +27197,7 @@ PDOMapping=1
 
 [5101sub2F]
 ParameterName=PCB Measured Temperature 3
-ParameterValue=0x01b8
+ParameterValue=0x0149
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -27211,7 +27211,7 @@ PDOMapping=1
 
 [5101sub30]
 ParameterName=Primary Temperature
-ParameterValue=0x0223
+ParameterValue=0x0187
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -27239,7 +27239,7 @@ PDOMapping=1
 
 [5101sub35]
 ParameterName=Wurth Connector temperature
-ParameterValue=0x01ca
+ParameterValue=0x015d
 ObjectType=7
 DataType=3
 AccessType=ro
@@ -27273,7 +27273,7 @@ DefaultValue=2
 
 [5102sub1]
 ParameterName=IOP Boot Count
-ParameterValue=0x0000a527
+ParameterValue=0x00001521
 ObjectType=7
 DataType=7
 AccessType=ro
@@ -27338,7 +27338,7 @@ DefaultValue=3
 
 [5200sub1]
 ParameterName=Hours
-ParameterValue=0x0016
+ParameterValue=0x0018
 ObjectType=7
 DataType=6
 AccessType=rw
@@ -27352,7 +27352,7 @@ ObjFlags=0x1
 
 [5200sub2]
 ParameterName=Minutes / Seconds
-ParameterValue=0xe4
+ParameterValue=0xea
 ObjectType=7
 DataType=5
 AccessType=rw
@@ -27387,7 +27387,7 @@ DefaultValue=3
 
 [5300sub1]
 ParameterName=Number of faults currently active.
-ParameterValue=0x0002
+ParameterValue=0x0001
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -27413,7 +27413,7 @@ ObjFlags=0x1
 
 [5300sub3]
 ParameterName=ID of Fault at position selected in 5300h, 2.
-ParameterValue=0x5044
+ParameterValue=0x4681
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -27440,7 +27440,7 @@ PDOMapping=1
 
 [5310]
 ParameterName=CANopen General Error Abort Code
-ParameterValue=0x0003
+ParameterValue=0x0000
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -27477,7 +27477,7 @@ ObjFlags=0x1
 
 [5320]
 ParameterName=Currently active highest priority fault
-ParameterValue=0x5044
+ParameterValue=0x4681
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -27586,7 +27586,7 @@ DefaultValue=9
 
 [5600sub1]
 ParameterName=System FIFO
-ParameterValue=0x040000b000162401010000af00162401040000d800142401010000d500142401040000d100142401010000d000142401040000be00142401010000ba00142401040000a100142401010000a100142401
+ParameterValue=0x040000e800182401010000e200182401010000d900182401040000af00182401010000af00182401040000850018240101000085001824010400005c001824010100005c001824010400004500182401
 ObjectType=7
 DataType=15
 AccessType=ro
@@ -27598,7 +27598,7 @@ ObjFlags=0x1
 
 [5600sub2]
 ParameterName=Faults FIFO
-ParameterValue=0x031246b100165044011919da001452c3091246d200145044011919c7001452c3011919b5001452c3011919a7001452c3011919a0001452c30000809f001453080119199b001452c301191999001452c301191998001452c30119198b001452c30119197c001452c30119196d001452c301191968001452c301191967001452c30312464b001450440403ff12001352c10403ffbf001252c10403ffb1001252c10403ff9d001252c10403ff23001252c1000080d000115308000080c7001153080000806700115308000080390011530800008029001153080000802700115308000080d000105308000080ba00105308000080b8001053080403ffb4001052c1000080ad001053080000809f001053080403ff8c001052c10512466200105044000001620010530f0000805f001053080f124659001050440000800300105308
+ParameterValue=0x0000007f001852c40000004b001852c400000041001852c400000037001852c40380801c001852c30380800e001852c303808007001852c3038080ed001752c3000000e9001752c4000000dc001752c4038080cc001752c3038080c7001752c3038080a3001752c301191998001752c3031246b100165044011919da001452c3091246d200145044011919c7001452c3011919b5001452c3011919a7001452c3011919a0001452c30000809f001453080119199b001452c301191999001452c301191998001452c30119198b001452c30119197c001452c30119196d001452c301191968001452c301191967001452c30312464b001450440403ff12001352c10403ffbf001252c10403ffb1001252c10403ff9d001252c10403ff23001252c1000080d000115308000080c70011530800008067001153080000803900115308
 ObjectType=7
 DataType=15
 AccessType=ro
@@ -27610,7 +27610,7 @@ ObjFlags=0x1
 
 [5600sub3]
 ParameterName=Event Counters
-ParameterValue=0x000e00da00140024000b52c3000100b0001600b000164681001f00b10016003300015044001800e90006003300014f41002d00da00140024000b4ec200010062001000620010530f0023001200130000000052c1000d00c3000d00a4000b52c4000100230012002300124b890044009f0014000000005308
+ParameterValue=0x0016001c00180024000b52c3000100e8001800e800182401001f00b10016003300015044001800e90006003300014f41003b007f00180024000b4ec200010062001000620010530f0023001200130000000052c10013007f001800a4000b52c4000100230012002300124b890044009f0014000000005308
 ObjectType=7
 DataType=15
 AccessType=ro
@@ -27622,7 +27622,7 @@ ObjFlags=0x1
 
 [5600sub4]
 ParameterName=Customer Operational Monitor
-ParameterValue=0x0a41019880007fff80007fff80007fff0921000000000000
+ParameterValue=0x0a60019880007fff80007fff80007fff0921000000000000
 ObjectType=7
 DataType=15
 AccessType=ro
@@ -27634,7 +27634,7 @@ ObjFlags=0x1
 
 [5600sub5]
 ParameterName=BorgWarner Operational Monitor
-ParameterValue=0x0718019a80007fff80007fff80007fff0920000000000000
+ParameterValue=0x071a019a80007fff80007fff80007fff0920000000000000
 ObjectType=7
 DataType=15
 AccessType=ro
@@ -27646,7 +27646,7 @@ ObjFlags=0x1
 
 [5600sub6]
 ParameterName=Active Fault List
-ParameterValue=0x46815044
+ParameterValue=0x4681
 ObjectType=7
 DataType=15
 AccessType=ro
@@ -28300,7 +28300,7 @@ PDOMapping=0
 
 [5620]
 ParameterName=Configuration Checksum
-ParameterValue=0xd48a
+ParameterValue=0xb739
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -28335,7 +28335,7 @@ DefaultValue=2
 
 [5621sub1]
 ParameterName=Index
-ParameterValue=0x4612
+ParameterValue=0x0000
 ObjectType=7
 DataType=6
 AccessType=ro
@@ -28350,7 +28350,7 @@ DefaultValue=0
 
 [5621sub2]
 ParameterName=Sub-index
-ParameterValue=0x03
+ParameterValue=0x00
 ObjectType=7
 DataType=5
 AccessType=ro
@@ -28813,7 +28813,7 @@ DefaultValue=94
 
 [5702sub1]
 ParameterName=Accel Limit
-ParameterValue=0x00000000
+ParameterValue=0x459c4000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -28827,7 +28827,7 @@ DefaultValue=0
 
 [5702sub2]
 ParameterName=Decel Limit
-ParameterValue=0x00000000
+ParameterValue=0x459c4000
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -29151,7 +29151,7 @@ DefaultValue=0
 
 [5702sub1B]
 ParameterName=Speed regulator Kp
-ParameterValue=0x00000000
+ParameterValue=0x3c23d70a
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -29165,7 +29165,7 @@ DefaultValue=0
 
 [5702sub1C]
 ParameterName=Speed regulator Ki
-ParameterValue=0x00000000
+ParameterValue=0x3a83126f
 ObjectType=7
 DataType=8
 AccessType=rw
@@ -29825,7 +29825,7 @@ PDOMapping=1
 
 [5702sub50]
 ParameterName=Speed
-ParameterValue=0xc00f0e80
+ParameterValue=0xbfbf79ee
 ObjectType=7
 DataType=8
 AccessType=ro
@@ -29849,7 +29849,7 @@ PDOMapping=1
 
 [5702sub52]
 ParameterName=DC link Current
-ParameterValue=0x3ced01ca
+ParameterValue=0xbea4c2fe
 ObjectType=7
 DataType=8
 AccessType=ro
