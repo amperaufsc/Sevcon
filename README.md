@@ -155,7 +155,13 @@ Mapa torque demandado → corrente de magnetização (antes: 102,41 A em todas a
 
 1. **Platô (T ≥ 60 Nm → 102,41 A):** torque ≈ k·Id·Iq e o Iq tem teto (Is max = 257 A). Torque de pico exige campo pleno — nessa faixa **nada mudou**, performance de largada intacta.
 2. **Meio (descida ~√T, com folga pra cima):** a divisão eficiente entre Id e Iq segue Id ∝ √T. Os valores ficaram deliberadamente **acima** da curva ótima de eficiência: campo extra = menos tempo re-fluxando quando pisa = melhor resposta. Priorizado resposta sobre eficiência.
-3. **Piso (0 Nm → 30 A, ~30% do nominal):** não zerar o fluxo em repouso mantém o motor "pré-armado" pra primeira mordida de torque e o controle vetorial estável. 25–35% do Id nominal é faixa típica de idle flux em drives de tração. 30 A corta o torque parasita em ~70%.
+3. **Piso (0 Nm → 30 A, ~30% do nominal):** não zerar o fluxo em repouso mantém o motor "pré-armado" pra primeira mordida de torque e o controle vetorial estável. 25–35% do Id nominal é faixa típica de idle flux em drives de tração. 30 A corta o torque parasita em ~70% e o consumo parado em ~91% (perdas no cobre ∝ Id²).
+
+**Por que o piso não é 0 A** (eficiência máxima em repouso seria fluxo zero, mas):
+- O fluxo do rotor sobe com a constante de tempo rotórica: **τr = Lr/Rr = (772 + 111,2) µH / 13,8 mΩ ≈ 64 ms**. Partindo de zero, ~3τr ≈ **190 ms** até campo pleno — e sem campo não há torque nesse intervalo.
+- O custo não é só na largada: **toda** reaplicação de pedal que passou perto de 0 Nm (alívio em curva no autocross/enduro) teria hesitação de até ~0,2 s, e inconsistente (depende de há quanto tempo soltou o pedal).
+- Controle vetorial orienta-se pelo fluxo do rotor — fluxo zero = sem referência de orientação; e ruído de demanda perto de 0 Nm ficaria ligando/desligando o campo (bombeamento térmico, resposta errática).
+- Se o problema for térmico com carro parado muito tempo (fila), a solução é desabilitar o inversor (pre-operational), não fluxo zero na tabela.
 
 ⚠️ **Não usar a caixa "Set magnetising current to fixed value" com 0** — zera a tabela inteira e o motor não produz torque.
 
@@ -183,5 +189,22 @@ Knobs de ajuste empírico:
 - **Joelho (60 Nm):** só mexer se otimizar eficiência/térmica em torque parcial (endurance) — não afeta o tranco.
 
 Bônus: −70 A parados = menos calor no motor/inversor e menos dreno do pack na fila/grid.
+
+### 3.5 Experimento opcional — Id acima do nominal no torque de pico (NÃO testado)
+
+**Ideia:** com o limite total Is max = 257 A, o ótimo teórico de torque (ferro ideal) seria Id = 257/√2 ≈ 182 A — mais que o Im nominal. Na prática a **saturação** mata o ganho: acima do joelho (≈ Im nominal, definido pelo fabricante justamente por isso), cada ampère extra de Id compra quase zero fluxo e vira calor, enquanto rouba Iq garantido (102→130 A de Id derruba Iq de 236→221 A). Resultado líquido tende a zero ou negativo.
+
+**Única janela plausível:** o datasheet lista corrente a vazio = **114 A**, sugerindo que o joelho real pode estar um pouco acima dos 102 A configurados.
+
+Se for testar:
+
+| Passo | O quê |
+|---|---|
+| 1 | Flux map: linhas de topo (94/94/80 Nm) de 102.41 → **114 A**; resto da tabela inalterado |
+| 2 | Saturation map: **Im max = 114 A** (Im min continua 30) → **Calculate map** → write → save → power cycle |
+| 3 | **Im rated (102 A) e Lm rated (770,6 µH) NÃO mudam** — são a âncora 1.0 PU do datasheet; mover a âncora desloca a curva inteira |
+| 4 | Rs, Rr, Lls, Llr inalterados (não dependem do nível de magnetização) |
+
+**Veredito pelo cronômetro e termômetro, não pelo DVT:** acima de 102 A o Lm usado pelo controle é estimativa do perfil genérico, então o torque reportado não é confiável nessa região. Ganho esperado < 2% (dentro do ruído de medição); motor é S2 60 min — monitorar temperatura. Sem ganho claro de tempo de lançamento → voltar pra 102.41 A e encerrar.
 
 
